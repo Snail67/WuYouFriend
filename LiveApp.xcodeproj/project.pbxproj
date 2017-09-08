@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		533333E31F628F3D00977BEA /* MineSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 533333E21F628F3D00977BEA /* MineSecondController.m */; };
 		827B29E565D7C3B7460B5481 /* Pods_LiveApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B721742DC0E2A454324FC5 /* Pods_LiveApp.framework */; };
 		BA879C1C1F61297A00D624D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA879C1B1F61297A00D624D1 /* main.m */; };
 		BA879C1F1F61297A00D624D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA879C1E1F61297A00D624D1 /* AppDelegate.m */; };
@@ -49,6 +50,8 @@
 /* Begin PBXFileReference section */
 		28B721742DC0E2A454324FC5 /* Pods_LiveApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA04EC657F7D98D79A60240 /* Pods-LiveApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiveApp/Pods-LiveApp.debug.xcconfig"; sourceTree = "<group>"; };
+		533333E11F628F3C00977BEA /* MineSecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineSecondController.h; sourceTree = "<group>"; };
+		533333E21F628F3D00977BEA /* MineSecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineSecondController.m; sourceTree = "<group>"; };
 		BA879C171F61297A00D624D1 /* LiveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA879C1B1F61297A00D624D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA879C1D1F61297A00D624D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = LiveApp/AppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -308,6 +311,8 @@
 			children = (
 				BA879CB11F6148A900D624D1 /* WFMineVC.h */,
 				BA879CB21F6148A900D624D1 /* WFMineVC.m */,
+				533333E11F628F3C00977BEA /* MineSecondController.h */,
+				533333E21F628F3D00977BEA /* MineSecondController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -668,6 +673,7 @@
 				BA879CC41F6148FC00D624D1 /* UIColor+Extension.m in Sources */,
 				BA879C7A1F61441500D624D1 /* UIViewController+RTRootNavigationController.m in Sources */,
 				BA879C7E1F61461500D624D1 /* NSObject+Obj.m in Sources */,
+				533333E31F628F3D00977BEA /* MineSecondController.m in Sources */,
 				BA879C1C1F61297A00D624D1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
